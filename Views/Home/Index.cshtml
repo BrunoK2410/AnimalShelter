@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+   <style>
+       body{
+        background-image: url(https://wallpaperaccess.com/full/343169.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+       }
+      
+       button{
+           width:250px;
+           height:50px;
+           background-color: #ff6200;
+           color:white;
+       }
+
+       p{
+           font-size:20px;
+       }
+       
+       
+   </style>
+
+   <body>
+    <div class="container" style="margin-top:230px">
+       <h1>ALL THEY NEED IS YOUR LOVE</h1>
+       <br />
+        <p>Finding the right pet is an easy task.<br /> Here at Pino,we do our best to save animals and give<br /> them the best life until they find their rightful home.</p>
+        <br />
+        <p> <a asp-area="" asp-controller="Animal" asp-action="Index"><button class="rounded-pill">Find your dog</button></a> - or - <a><button class="rounded-pill">Find your cat</button></a></p>
+       </div>
+   </body>
